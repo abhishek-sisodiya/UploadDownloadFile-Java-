@@ -77,7 +77,7 @@ public class FileStorageService {
 		File[] fList = directory.listFiles();
 		ArrayList x = new ArrayList();
 		for (File file : fList) {
-			x.add(file.getAbsolutePath());
+			x.add(file.getName());
 		}
 		return x;
 	}
